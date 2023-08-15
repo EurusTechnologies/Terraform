@@ -53,6 +53,8 @@
 
 | Name | Description | Type | Default | Required |
 |------|-------------|------|---------|:--------:|
+| <a name="input_domain_name"></a> [domain\_name](#input\_domain\_name) | Domain | `string` | n/a | yes |
+| <a name="input_email_issuer"></a> [email\_issuer](#input\_email\_issuer) | Lets Encrypt email issuer | `string` | n/a | yes |
 | <a name="input_gcp_project_id"></a> [gcp\_project\_id](#input\_gcp\_project\_id) | The GCP project id | `string` | n/a | yes |
 | <a name="input_k8s_cluster_location"></a> [k8s\_cluster\_location](#input\_k8s\_cluster\_location) | k8s target cluster location | `string` | n/a | yes |
 | <a name="input_k8s_cluster_name"></a> [k8s\_cluster\_name](#input\_k8s\_cluster\_name) | k8s target cluster name | `string` | n/a | yes |
